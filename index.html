@@ -5,70 +5,61 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>tailwind</title>
+            <title>Penguin Fashion</title>
             <!-- Tailwind css -->
             <script src="https://cdn.tailwindcss.com"></script>
-
+            <script>
+                  tailwind.config = {
+                        theme: {
+                              extend: {
+                                    colors: {
+                                          clifford: '#da373d',
+                                          penguin: '#FFFBF0',
+                                    }
+                              }
+                        }
+                  }
+            </script>
       </head>
 
       <body>
-            <h1 class="text-6xl">I have a scret tail that you don't know</h1>
-            <h3 class="text-3xl">I will reveal it today</h3>
-            <button class="bg-teal-800 text-green-50 rounded-md px-3">Click Me</button>
-            <p>this will be fine.</p>
 
+            <header class="bg-penguin pb-32 pt-12">
+                  <section class="container mx-auto sm:flex items-center justify-around">
+                        <div class="space-y-4">
+                              <h1
+                                    class="text-2xl sm:text-5xl uppercase font-bold text-center sm:text-left">
+                                    <span class="text-yellow-400 text-center sm:text-left">Be the
+                                          penguin</span>
+                                    <br>
+                                    <span class="text-center sm:text-left">Of Winter</span>
+                              </h1>
+                              <p class="text-center sm:text-left">Lorem ipsum dolor sit amet
+                                    consectetur adipisicing elit.
+                                    Perferendis quos
 
-            <section>
-                  <div class="container border border-sky-500">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                              voluptatem quisquam at aliquid temporibus assumenda molestias dicta
-                              qui a sequi!</p>
-                  </div>
-                  <div class="container border ml-10 border-red-500">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                              voluptatem quisquam at aliquid temporibus assumenda molestias dicta
-                              qui a sequi!</p>
-                  </div>
-                  <div class="container border border-green-500">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                              voluptatem quisquam at aliquid temporibus assumenda molestias dicta
-                              qui a sequi!</p>
-                  </div>
-                  <div class="container border border-yellow-500">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-                              voluptatem quisquam at aliquid temporibus assumenda molestias dicta
-                              qui a sequi!</p>
-                  </div>
-            </section>
+                              </p>
+                              <p class="text-center sm:text-left"><button
+                                          class="uppercase bg-lime-600 py-4 px-7 text-white rounded-xl font-semibold ">
+                                          <svg xmlns="http://www.w3.org/2000/svg"
+                                                class="h-6 w-6 inline" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                                          </svg>
+                                          Buy Now
+                                    </button></p>
+                        </div>
+                        <div class="pt-4 sm:pt-0 ">
+                              <img class="w-1/2 sm:w-full object-right mx-24 sm:mx-0"
+                                    src="images/model.png" alt="model">
+                        </div>
+                  </section>
+            </header>
+            <main>
 
-            <section class="flex justify-evenly">
-                  <div class="h-64 bg-blue-200 w-64 flex justify-center items-center">
-                        <h2 class="text-5xl bg-purple-200 font-bold"> first </h2>
-
-                  </div>
-
-                  <div>
-                        <h2 class="text-5xl bg-red-200 font-bold">second </h2>
-                  </div>
-            </section>
-            <h2 class="text-5xl text-center">My guddu guddu grid</h2>
-            <section class="bg-yellow-400 grid grid-cols-4s">
-                  <div class="bg-blue-400 m-4 p-4">1</div>
-                  <div class="bg-blue-400 m-4 p-4">2</div>
-                  <div class="bg-blue-400 m-4 p-4">3</div>
-                  <div class="bg-blue-400 m-4 p-4">4</div>
-                  <div class="bg-blue-400 m-4 p-4">5</div>
-                  <div class="bg-blue-400 m-4 p-4">6</div>
-                  <div class="bg-blue-400 m-4 p-4">7</div>
-                  <div class="bg-blue-400 m-4 p-4">8</div>
-                  <div class="bg-blue-400 m-4 p-4">9</div>
-                  <div class="bg-blue-400 m-4 p-4">10</div>
-                  <div class="bg-blue-400 m-4 p-4">11</div>
-                  <div class="bg-blue-400 m-4 p-4">12</div>
-                  <div class="bg-blue-400 m-4 p-4">13</div>
-                  <div class="bg-blue-400 m-4 p-4">14</div>
-                  <div class="bg-blue-400 m-4 p-4">15</div>
-            </section>
+            </main>
       </body>
 
 </html>
